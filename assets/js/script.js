@@ -8,11 +8,11 @@ import { Animal, Mamifero, Reptil } from './clases.js';
 // Función para obtener la imagen del animal
 async function obtenerImagen(animal) {
     const imagenes = {
-        'Leon': 'assets/img/leon.png',
-        'Lobo': 'assets/img/lobo.jpg',
-        'Oso': 'assets/img/oso.jpg',
-        'Serpiente': 'assets/img/serpiente.jpg',
-        'Aguila': 'assets/img/aguila.png'
+        'Leon': 'assets/img/Leon.png',
+        'Lobo': 'assets/img/Lobo.jpg',
+        'Oso': 'assets/img/Oso.jpg',
+        'Serpiente': 'assets/img/Serpiente.jpg',
+        'Aguila': 'assets/img/Aguila.png'
     };
     return imagenes[animal];
 }
